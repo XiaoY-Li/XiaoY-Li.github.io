@@ -288,8 +288,17 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  # group_by: year
+  group_by: type
   group_order: descending
+  type_names:
+      papers: Regular Papers
+      others: Others
+  type_aliases:
+    inproceedings: papers
+    article: papers
+    inproceedingsdemo: others
+    otherarticle: others
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -631,20 +640,20 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
