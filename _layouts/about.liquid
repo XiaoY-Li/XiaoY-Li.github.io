@@ -65,23 +65,23 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    {% if page.honor -%}
+    {% if page.honor %}
       <hr>
       <h2 id="honors" class="h2-section font-weight-bold">Awards and Honors</h2>
       {% include honor.liquid %}
-    {%- endif %}
+    {% endif %}
 
-    {% if page.service -%}
+    {% if page.service %}
       <hr>
       <h2 id="service" class="h2-section font-weight-bold">Services</h2>
       {% include service.liquid %}
-    {%- endif %}
+    {% endif %}
 
-    {% if page.teaching -%}
+    {% if page.teaching %}
       <hr>
       <h2 id="teaching" class="h2-section font-weight-bold">Teaching</h2>
       {% include teaching.liquid %}
-    {%- endif %}
+    {% endif %}
 
     <!-- Social -->
     {% if page.social %}
