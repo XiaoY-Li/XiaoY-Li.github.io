@@ -14,7 +14,7 @@
             {% if site.middle_name %}
               {{- site.middle_name -}}
             {% endif %}
-            {% if site.last_name %}`
+            {% if site.last_name %}
               {{- site.last_name -}}
             {% endif %}
           {% else %}
@@ -48,13 +48,29 @@
           {% endfor %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+          <!-- <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
+          </li> -->
+          <!-- Assume no active class handling here, leave it to JavaScript -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#top">{{ about_title }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#honors">Honors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}#teaching">Teaching</a>
           </li>
 
           <!-- Other pages -->
