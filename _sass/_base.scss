@@ -190,7 +190,58 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+div .plain-link {
+  color: inherit; /* Keeps the color consistent even on hover, focus, or active states */
+  text-decoration: none;
+  border-bottom: none !important; /* Ensures this rule takes precedence */
+}
+
+.plain-link:hover,
+.plain-link:active,
+.plain-link:focus {
+  color: var(--global-theme-color); /* Specific color on hover */
+}
+
+.author, .title {
+  margin-bottom: 0;
+}
+
+.award-highlight {
+  color: red !important;
+  // font-style: italic;
+}
+
 // Profile
+
+// .h2-section ~ .publications h2.bibliography {
+//   border-top: none;
+// }
+
+
+// .photo-fluid {
+//   max-width: 80%;
+//   height: auto;
+// }
+
+// :root {
+//   // --my-title-color: #a22f2d; /* replace with desired color */
+//   --my-name-color: #000000;
+// }
+
+// .post .post-header .post-name span{
+//   font-size: 20px; /* replace with desired size */
+//   color: var(--my-name-color); /* replace with your variable */
+// }
+
+.h2-section{
+  // color: #A22F2D;
+  font-size: 23px;
+}
+
+.h3-section{
+  color: #000000;
+  font-size: 18px;
+}
 
 .profile {
   width: 100%;
