@@ -779,14 +779,18 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
+    list-style: decimal;
     padding: 0;
+    padding-left: 2rem;
     margin-top: 0;
 
     li {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        min-width: 80px;
+        max-width: 200px;
       }
 
       .abbr {
@@ -815,6 +819,17 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .venue {
+        display: inline-block;
+        background-color: var(--global-theme-color);
+        color: var(--global-card-bg-color) !important;
+        padding: 3px 6px;
+        border-radius: 2px;
+        font-size: 0.88rem;
+        font-weight: bold;
+        line-height: 100%
       }
 
       .author {
