@@ -33,7 +33,8 @@
             {%- endif -%}
 
             {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+              <!-- <em>{{author.first}} {{author.last}}</em> -->
+              <strong><u>{{ author.first }} {{ author.last }}</u></strong>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a class="plain-link" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>

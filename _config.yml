@@ -267,8 +267,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Xiaoyu]
-  first_name: [Li]
+  last_name: [Li]
+  first_name: [Xiaoyu]
 
   style: apa
   locale: en
