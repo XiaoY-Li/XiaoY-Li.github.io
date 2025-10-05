@@ -34,7 +34,9 @@
 
             {%- if author_is_self -%}
               <!-- <em>{{author.first}} {{author.last}}</em> -->
-              <strong><u>{{ author.first }} {{ author.last }}</u></strong>
+              <span class="font-weight-bold">
+                <u>{{ author.first }} {{ author.last }}</u>
+              </span>
             {%- else -%}
               {%- if coauthor_url -%}
                 <a class="plain-link" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
