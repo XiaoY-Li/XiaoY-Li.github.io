@@ -24,5 +24,5 @@ I am a Ph.D. student in the [School of Computer Science](https://cs.nju.edu.cn/)
 
 <b>Email:</b> xyli@smail.nju.edu.cn
 
-[<b>Github</b>](https://github.com/XiaoY-Li) / [<b>Scholar</b>]() / [<b>CV</b>]()
+[<b>Github</b>](https://github.com/XiaoY-Li) / [<b>CV</b>](https://xiaoy-li.github.io/assets/pdf/cv-xyli.pdf)
 
