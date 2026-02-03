@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   address: >
 
@@ -20,7 +20,7 @@ teaching: true  # includes a list of teaching experience
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the [School of Computer Science](https://cs.nju.edu.cn/) at the Nanjing University, under the supervising of Dr. [Jia Liu](https://cs.nju.edu.cn/liujia/). Previously, I received my B.E. degree from [Huazhong University of Science and Technology (HUST)](https://www.hust.edu.cn/). My primary research interests focus on AI-driven mobile computing, including wireless localization and intelligent sensing.
+I am a Ph.D. student in the [School of Computer Science](https://cs.nju.edu.cn/) at Nanjing University, under the supervision of Dr. [Jia Liu](https://cs.nju.edu.cn/liujia/). Previously, I received my B.E. degree from [Huazhong University of Science and Technology (HUST)](https://www.hust.edu.cn/). My primary research interests focus on mobile computing, wireless communication, and AI-driven wireless sensing.
 
 <b>Email:</b> xyli@smail.nju.edu.cn
 
